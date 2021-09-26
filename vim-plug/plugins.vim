@@ -30,4 +30,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
     
     Plug 'joshdick/onedark.vim'
+		" Multiple Cursors
+		Plug 'terryma/vim-multiple-cursors'
+		" Nerdcommenter
+		
+		" Tmux-navigator
+		Plug 'christoomey/vim-tmux-navigator'
+		" Nerdcommenter
+		Plug 'scrooloose/nerdcommenter'
 call plug#end()

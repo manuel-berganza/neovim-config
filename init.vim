@@ -1,10 +1,11 @@
 source $HOME/.config/nvim/vim-plug/plugins.vim
 
+set mouse=a
 set number
 set numberwidth=1
 set encoding=utf-8
 set showmatch
-set sw=1
+set sw=4
 set relativenumber
 set ruler
 
@@ -25,10 +26,6 @@ nmap <Leader>s <Plug>(easymotion-s2)
 
 syntax on
 colorscheme onedark
-
-
-
-
 
 
 
